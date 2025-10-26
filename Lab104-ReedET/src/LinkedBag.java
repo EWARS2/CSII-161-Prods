@@ -231,8 +231,7 @@ public class LinkedBag<E> implements Bag<E> {
         if (!(o instanceof LinkedBag<?> other)) {
             return false;
         }
-        int n = this.size();
-        if (n != other.size()) {
+        if (this.size() != other.size()) {
             return false;
         }
 

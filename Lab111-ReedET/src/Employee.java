@@ -6,15 +6,20 @@ import java.util.Objects;
  *
  * Employee class
  *
+ * Did you know? In Netbeans, Alt + Insert lets you auto-generate getters and
+ * setters from instance variables. Furthermore, right clicking on the project,
+ * going tools, and Analyze JavaDocs allows you to auto-generate JavaDocs as
+ * well. Isn't that nice to know?
+ *
  * @author Ethan T. Reed
  * @version 2025/12/5
  */
 public class Employee {
 
-    private int id;    // 0 to 99,999,999
+    private int id;     // 0 to 99,999,999
     private String name;
-    private int dept;       // 1 to 5 inclusive
-    private int hired;      // 2008 to 2018 inclusive
+    private int dept;   // 1 to 5 inclusive
+    private int hired;  // 2008 to 2018 inclusive
 
     /**
      * Constructor
